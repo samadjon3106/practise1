@@ -1,108 +1,61 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
-int main() {
-    //double x = 3, y=4 , z;
-    //z= min(x,y);
-    //z=max(x,y);
-    //z=pow(2, 4);
-    //z= sqrt(16);
-    //z= abs(-10);
-    //z=round(4);
-    //z=ceil(2.56);
-    //z=floor(2.74);
-    /*double a,b,c;
-       cout<<"Enter side A:";
-       cin>>a;
+ int main() {
 
-       cout<<"Enter side B:";
-       cin>>b;
-
-       a=pow(a,2);
-       b=pow(b,2);
-       c=sqrt(pow(a,2)+pow(b, 2));
-       cout<<"side C: "<<c;;
-       return 0;*/
-
-    //if statement
-    /*int age;
-    cin>>age;
-
-    if ( age>= 18) {
-        cout<< " you can participate in voting";
-
-    }else {
-        cout << " You are not eligible for voting"<<endl;
-    }
-
-        return 0;*/
-
-    // switch
-
-/*int students_name;
-    cout<< " Enter the student's name: ";
-    cin>> students_name;
-
-    switch (students_name) {
-        case 'Samadjon':
-            cout<< " he is a leader";
-        break;
-        case 'Abdurahmon':
-            cout<< " he is good boy";
-        break;
-        case ' Asror':
-            cout<< " he is strong";
-        break;
-        case ' Farangiz':
-            cout<<" She is beautiful";
-        break;
-        default:
-            cout<< "please enter written name";
-
-        return 0;
-
-    }*/\
-
-  // calculator
-    /*char op;
-    double num1;
-    double num2;
-    double result;
-    cout<< " Calculator";
-    cout<<" enter ( + - * /):";
-    cin>>op;
-
-    cout<<"Enter num1: ";
-    cin>> num1;
-
-    cout<<" Enter num2: ";
-    cin>>num2;
-
-    switch (op) {
-        case '+':
-        result=num1+num2;
-        cout<< "result: " << result;
-        break;
-        case '-':
-            result=num1-num2;
-        cout<< "result: " << result;
-        break;case '*':
-            result=num1*num2;
-        cout<< "result: " << result;
-        break;case '/':
-            result=num1/num2;
-        cout<< "result: " << result;
-        break;
-        default:
-            cout<< "please enter the true thing";
-        return 0;
+     // ternary operator
 
 
-    }*/
-}
+     //int grade = 100;
+     //grade >= 75?
+       //  cout <<"You passed " << endl : cout<< "You failed";
 
 
+     //int number = 2;
+     //number % 2 ? cout<< " Odd" : cout<< " Even";
 
 
+     //bool hungry = false;
+     //hungry? cout<<" You need eat something" : cout<<" You are full";
+     // another way
+     //cout <<( hungry? " You need eat something" : " You are full");
 
 
+     // logical operator ( && || !)
+     /* int temperature;
+     bool sunny = false;
+     cout << "Enter temperature in Celsius: ";
+     cin >> temperature;
+     if (temperature>= 15 && temperature<= 35) {
+         cout << " You can go out wih your girlfriend " ;
+     }
+     else { cout << " You can't " ;
+     }
+  if (!sunny) {
+      cout << " weather is nice";
+  }*/
+
+    // temperature conversion
+     /*double temp;
+     char unit;
+      cout<< " Temperature conversion\n";
+     cout << " F = Faranheit\n";
+     cout << " C= Celcius\n";
+     cout<< " What unit would you like to convert to: ";
+     cin >> unit;
+
+     if ( unit == 'F' || unit == 'f' ) {
+         cout << " Enter temperature in Celcius: ";
+         cin>>temp;
+         temp= (1.8*temp)+32.0;
+         cout<< " The temperature in F is: " << temp << "\n";
+     }else if ( unit == 'C' || unit == 'c' ) {
+         cout << " Enter temperature in Faranheit: ";
+         cin>> temp;
+         temp= (temp-32.0)/1.8;
+         cout<< " The temperature in C is: " << temp << "\n";
+         }else {
+             cout << " Please enter only in two units \n";
+         }*/
+
+     return 0;
+ }
